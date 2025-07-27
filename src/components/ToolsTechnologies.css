@@ -1,0 +1,57 @@
+.tools-technologies {
+    background: rgba(24,31,42,0.92);
+    border-radius: 18px;
+    box-shadow: 0 4px 32px #00eaff33;
+    padding: 32px 36px;
+    margin: 48px auto;
+    max-width: 700px;
+    text-align: center;
+    animation: fadeInUp 1.5s;
+}
+.tools-technologies h2 {
+    color: #00eaff;
+    font-family: 'Orbitron', monospace;
+    font-size: 1.3rem;
+    margin-bottom: 24px;
+    letter-spacing: 1px;
+    text-shadow: 0 0 8px #00eaff;
+}
+.tech-icons {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.tech-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #181f2a;
+    border-radius: 14px;
+    padding: 18px 16px 10px 16px;
+    box-shadow: 0 2px 16px #00eaff22;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    margin-bottom: 12px;
+    min-width: 90px;
+}
+.tech-icon:hover {
+    transform: translateY(-8px) scale(1.08);
+    box-shadow: 0 8px 36px #39ff1499, 0 0 0 2px #00eaff;
+}
+.tech-icon svg {
+    color: #00eaff;
+    filter: drop-shadow(0 0 8px #39ff14aa);
+    margin-bottom: 8px;
+    transition: color 0.3s;
+}
+.tech-icon:hover svg {
+    color: #39ff14;
+}
+.tech-icon p {
+    color: #eaf6fb;
+    font-size: 1rem;
+    margin: 0;
+    font-family: 'Roboto', monospace;
+    letter-spacing: 1px;
+}

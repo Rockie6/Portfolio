@@ -1,0 +1,126 @@
+/* Fade in up animation */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Project cards grid and animation */
+.projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.project-card {
+    background: #181f2a;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px #00eaff22;
+    width: 300px;
+    min-height: 220px;
+    padding: 24px 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    animation: fadeInUp 1s;
+}
+
+.project-card:hover {
+    transform: translateY(-10px) scale(1.04) rotate(-1deg);
+    box-shadow: 0 8px 36px #39ff1499, 0 0 0 2px #00eaff;
+}
+
+.project-image {
+    margin-bottom: 18px;
+}
+
+.project-content h3 {
+    color: #00eaff;
+    font-family: 'Orbitron', monospace;
+    font-size: 1.15rem;
+    margin-bottom: 8px;
+    text-align: center;
+    text-shadow: 0 0 8px #00eaff;
+}
+
+.project-content p {
+    color: #eaf6fb;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.tech-tag {
+    background: #232b3a;
+    color: #39ff14;
+    border-radius: 8px;
+    padding: 3px 10px;
+    font-size: 0.95rem;
+    font-family: 'Roboto', monospace;
+    letter-spacing: 1px;
+    box-shadow: 0 0 8px #39ff1433;
+}
+
+.project-links {
+    margin-top: 8px;
+    text-align: center;
+}
+
+.project-link {
+    color: #00eaff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+    font-size: 1.05rem;
+}
+
+.project-link:hover {
+    color: #39ff14;
+    text-decoration: underline;
+}
+
+.project-link i {
+    margin-right: 6px;
+}
+
+/* Section title */
+.section-title {
+    text-align: center;
+    color: #00eaff;
+    font-family: 'Orbitron', monospace;
+    font-size: 1.6rem;
+    margin-bottom: 32px;
+    letter-spacing: 1px;
+    text-shadow: 0 0 8px #00eaff;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .projects-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+    .project-card {
+        width: 90vw;
+        min-width: 0;
+    }
+}

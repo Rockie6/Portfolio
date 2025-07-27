@@ -1,0 +1,32 @@
+.social-proof {
+    background: rgba(24,31,42,0.92);
+    border-radius: 18px;
+    box-shadow: 0 4px 32px #00eaff33;
+    padding: 32px 36px;
+    margin: 48px auto;
+    max-width: 700px;
+    text-align: center;
+    animation: fadeInUp 1.2s;
+}
+
+.social-proof h2 {
+    color: #39ff14;
+    font-family: 'Orbitron', monospace;
+    font-size: 1.3rem;
+    margin-bottom: 24px;
+    letter-spacing: 1px;
+    text-shadow: 0 0 8px #39ff14;
+}
+
+.social-proof a {
+    color: #00eaff;
+    font-weight: 600;
+    margin: 0 12px;
+    text-decoration: none;
+    font-family: 'Roboto', monospace;
+    transition: color 0.2s;
+}
+
+.social-proof a:hover {
+    color: #39ff14;
+}

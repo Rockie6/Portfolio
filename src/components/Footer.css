@@ -1,0 +1,76 @@
+.footer {
+    width: 100vw;
+    margin-top: 60px;
+    padding: 28px 0 0 0;
+    background: #0a151e;
+    border-top: 3px solid #00eaff;
+    position: relative;
+    z-index: 3;
+    overflow: hidden;
+}
+.footer-tagline {
+    color: #39ff14;
+    font-family: 'Orbitron', monospace;
+    font-size: 1.1rem;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+    text-shadow: 0 0 8px #39ff14;
+}
+.footer-glitch {
+    width: 100vw;
+    height: 8px;
+    background: linear-gradient(90deg, #00eaff, #39ff14, #00eaff);
+    position: absolute;
+    left: 0; bottom: 0;
+    animation: glitch-scroll 2.5s linear infinite;
+    opacity: 0.7;
+    filter: blur(1.5px);
+}
+@keyframes glitch-scroll {
+    0% { background-position: 0 0;}
+    100% { background-position: 200vw 0;}
+}
+.footer-rights {
+    text-align: center;
+    color: #eaf6fb;
+    font-size: 1rem;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    font-family: 'Roboto', monospace;
+    opacity: 0.8;
+}
+.footer-extras {
+    text-align: center;
+    margin-top: 18px;
+}
+.footer-link {
+    color: #39ff14;
+    font-weight: 600;
+    margin-right: 18px;
+    text-decoration: none;
+    font-family: 'Roboto', monospace;
+}
+.footer-link:hover {
+    color: #00eaff;
+    text-decoration: underline;
+}
+.footer-badges {
+    margin: 0 12px;
+}
+.footer-badge {
+    height: 28px;
+    margin: 0 6px;
+    vertical-align: middle;
+    filter: drop-shadow(0 0 6px #00eaff88);
+}
+.footer-social a {
+    color: #00eaff;
+    margin: 0 6px;
+    text-decoration: none;
+    font-weight: 500;
+}
+.footer-social a:hover {
+    color: #39ff14;
+    text-decoration: underline;
+}

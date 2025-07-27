@@ -1,0 +1,32 @@
+.about-me {
+    margin: 48px auto 0 auto;
+    max-width: 700px;
+    background: linear-gradient(135deg, #10151c 0%, #232b3a 100%);
+    border-radius: 18px;
+    box-shadow: 0 4px 32px #00eaff33;
+    padding: 32px 36px;
+    font-size: 1.13rem;
+    line-height: 1.7;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    animation: fadeInUp 1.3s;
+    color: #eaf6fb;
+    border: 2px solid #00eaff;
+}
+
+.about-me strong {
+    color: #39ff14;
+    font-family: 'Orbitron', monospace;
+    font-size: 1.1rem;
+    text-shadow: 0 0 8px #39ff14;
+    letter-spacing: 1px;
+}
+
+.about-me h2 {
+    color: #00eaff;
+    font-family: 'Orbitron', monospace;
+    font-size: 1.4rem;
+    margin-bottom: 18px;
+    text-shadow: 0 0 8px #00eaff;
+}

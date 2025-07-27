@@ -1,0 +1,42 @@
+.ctf-achievements {
+    background: rgba(24,31,42,0.92);
+    border-radius: 18px;
+    box-shadow: 0 4px 32px #00eaff33;
+    padding: 32px 36px;
+    margin: 48px auto;
+    max-width: 700px;
+    text-align: center;
+    animation: fadeInUp 1.2s;
+}
+
+.ctf-achievements h2 {
+    color: #39ff14;
+    font-family: 'Orbitron', monospace;
+    font-size: 1.3rem;
+    margin-bottom: 24px;
+    letter-spacing: 1px;
+    text-shadow: 0 0 8px #39ff14;
+}
+
+.ctf-achievements ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ctf-achievements li {
+    background: #181f2a;
+    color: #eaf6fb;
+    border-radius: 10px;
+    padding: 12px 20px;
+    margin-bottom: 14px;
+    font-size: 1.08rem;
+    box-shadow: 0 2px 12px #00eaff22;
+    font-family: 'Roboto', monospace;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.ctf-achievements li:hover {
+    transform: translateY(-4px) scale(1.03);
+    box-shadow: 0 8px 24px #39ff1499, 0 0 0 2px #00eaff;
+}
