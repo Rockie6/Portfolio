@@ -32,7 +32,7 @@ rockson-portfolio-poster
 1. **Clone the repository**:
    ```bash
    git clone <repository-url>
-   cd rockson-portfolio-poster
+   cd Portfolio
    ```
 
 2. **Install dependencies**:
