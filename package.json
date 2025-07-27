@@ -1,5 +1,5 @@
 {
-  "name": "rockson-portfolio-poster",
+  "name": "Portfolio",
   "version": "1.0.0",
   "description": "A sleek, animated portfolio poster for Rockson Onchoka, showcasing skills and projects in cybersecurity.",
   "main": "src/App.js",
@@ -46,5 +46,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://github.com/Rockie6/Portfolio.git"
+  "homepage": "https://Rockie6.github.io/Portfolio"
 }
