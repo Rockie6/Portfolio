@@ -31,7 +31,7 @@ rockson-portfolio-poster
 
 1. **Clone the repository**:
    ```bash
-   git clone <https://github.com/Rockie6/Portfolio>
+   git clone https://github.com/Rockie6/Portfolio
    cd Portfolio
    ```
 
